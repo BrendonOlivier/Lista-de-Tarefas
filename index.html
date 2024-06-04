@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Icon.svg" type="image/svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Lista de Tarefas</h1>
+    </header>
+
+    <main>
+
+        <section class="inputs">
+            <p class="header_paragrafo">Adicione tarefas e organize seu dia, se torne produtivo.</p>
+
+            <div class="caixa-input">
+                <input type="text" class="input_tex" id="input_tex" placeholder="Digite sua tarefa">
+                <input type="submit" value="Adicionar" class="input_btn" id="btn_adicionar">
+            </div>
+
+        </section>
+
+
+        <section class="list_tarefa">
+            <ul id="ul_list">
+
+            </ul>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
